@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.kaydownes.FreeGodChristianQuotes" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Daily God / Christian Quotes</name>
+    <description>
+        Your daily fix of inspirational God / Christian sayings and affirmations to help you form a closer relationship with God.
+    </description>
+    <author email="kay@kaydownes.com" href="http://www.kaydownes.com">
+        Kay Downes
+    </author>
+    <preference name="windows-identity-name" value="28366KayDownes.FreeDailyGodChristianQuotes" />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <preference name="phonegap-version" value="cli-6.0.0" />
+    <platform name="winphone" />
+     <preference name="windows-identity-name" value="28366KayDownes.FreeDailyGodChristianQuotes" />
+     <preference name="windows-appx-target" value="8.1-phone" />
+     <preference name="orientation" value="portrait" />
+    <platform name="windows">
+    <icon src="www/res/icon/windows/Square150x150Logo.scale-100.png" platform="windows" width="150" height="150"/>
+    <icon src="www/res/icon/windows/Square30x30Logo.scale-100.png" platform="windows" width="30" height="30"/>
+    <icon src="www/res/icon/windows/StoreLogo.scale-100.png" platform="windows" width="50" height="50"/>
+    <splash src="www/res/screen/windows/SplashScreen.scale-100.png" platform="windows" width="620" height="300"/>
+    <icon src="www/res/icon/windows/StoreLogo.scale-240.png" platform="windows" width="120" height="120"/>
+    <icon src="www/res/icon/windows/Square44x44Logo.scale-100.png" platform="windows" width="44" height="44"/>
+    <icon src="www/res/icon/windows/Square44x44Logo.scale-240.png" platform="windows" width="106" height="106"/>
+    <icon src="www/res/icon/windows/Square70x70Logo.scale-100.png" platform="windows" width="70" height="70"/>
+    <icon src="www/res/icon/windows/Square71x71Logo.scale-100.png" platform="windows" width="71" height="71"/>
+    <icon src="www/res/icon/windows/Square71x71Logo.scale-240.png" platform="windows" width="170" height="170"/>
+    <icon src="www/res/icon/windows/Square150x150Logo.scale-240.png" platform="windows" width="360" height="360"/>
+    <icon src="www/res/icon/windows/Square310x310Logo.scale-100.png" platform="windows" width="310" height="310"/>
+    <icon src="www/res/icon/windows/Wide310x150Logo.scale-100.png" platform="windows" width="310" height="150"/>
+    <icon src="www/res/icon/windows/Wide310x150Logo.scale-240.png" platform="windows" width="744" height="360"/>
+    <splash src="www/res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows" width="1152" height="1920"/>
+  </platform>
+</widget>
